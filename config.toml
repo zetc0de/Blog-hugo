@@ -38,10 +38,16 @@ pygmentsUseClasses=true
     url = "/tags"
     weight = -7 
   [[menu.main]]
+    name = "Labs"
+    pre = "<i class=\"fas fa-server fa-ms\"></i>"
+    url = "/labs"
+    weight = -6
+
+  [[menu.main]]
     name = "Github"
     pre = "<i class=\"fab fa-github fa-ms\"></i>"
     url = "https://github.com/zetc0de"
-    weight = -6 
+    weight = -5
   [[menu.main]]
     name = "RSS"
     pre = "<i class=\"fas fa-rss fa-ms\"></i>"
