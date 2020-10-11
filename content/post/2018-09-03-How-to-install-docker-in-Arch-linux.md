@@ -3,6 +3,7 @@ layout: post
 title: "How To Install Docker In Arch Linux"
 date: 2018-09-03
 tags: [ "Docker" ]
+categories: [ "DevOps" ]
 ---
 ![](/images/docker/docker01/docker.png)
 ## Introduction

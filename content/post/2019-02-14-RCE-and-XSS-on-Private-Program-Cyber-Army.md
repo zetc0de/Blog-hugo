@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "[Bug Bounty] RCE and XSS On Private Program Cyber Army ID"
+title: "RCE and XSS On Private Program Cyber Army ID"
 date: 2019-02-14
-tags: [ "Bug Bounty", "RCE"]
+tags: [ "XSS", "RCE"]
+categories: [ "Bug Bounty"]
 ---
 
 ## Reconnaissance 

@@ -1,8 +1,9 @@
 ---
-title: "[Bug Bounty] Multiple IDOR in DOKU"
+title: "Multiple IDOR in DOKU"
 date: 2019-06-02T11:04:47+07:00
 draft: false
-tags: [ "Bug Bounty", "IDOR"]
+tags: ["IDOR"]
+categories: [ "Bug Bounty"]
 ---
 
 ## About DOKU

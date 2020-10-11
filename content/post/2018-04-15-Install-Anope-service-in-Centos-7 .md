@@ -3,6 +3,7 @@ layout: post
 title: "How To Install Anope Service In Centos 7"
 date: 2018-04-15
 tags: [ "IRC","Anope","Centos 7" ]
+categories: [ "Linux Administrator" ]
 ---
 ![Anope](/images/centos7/irc/anope/logo.png)
 

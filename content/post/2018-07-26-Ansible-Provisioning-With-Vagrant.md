@@ -3,6 +3,7 @@ layout: post
 title: "Ansible Provisioning With Vagrant" 
 date: 2018-07-26
 tags: [ "Vagrant","Ansible","Provisioning" ]
+categories: [ "DevOps" ]
 ---
 ![](/images/vagrant/vagrant04/ansible.png)
 

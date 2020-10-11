@@ -1,4 +1,4 @@
-title = "zetc0de — IT Security Enthusiast"
+title = "IT Security Enthusiast"
 baseurl = "https://zetc0de.github.io/"
 languageCode = "id-id"
 defaultContentLanguage = "id"
@@ -20,6 +20,7 @@ pygmentsUseClasses=true
   mail = "zetc0de.id@gmail.com"
   phone = "https://t.me/zetc0de"
   formspreeID = "xrgyeopo"
+  disqusShortname = "zetc0de-github-io"
 
 [menu]
   [[menu.main]]
@@ -33,28 +34,34 @@ pygmentsUseClasses=true
     url = "/post/"
     weight = -8
   [[menu.main]]
+    name = "Categories"
+    pre = "<i class=\"fas fa-keyboard fa-list\"></i>"
+    url = "/categories/"
+    weight = -7
+  [[menu.main]]
     name = "Tags"
     pre = "<i class=\"fas fa-tags fa-ms\"></i>"
     url = "/tags"
-    weight = -7 
+    weight = -6
   [[menu.main]]
     name = "Labs"
     pre = "<i class=\"fas fa-server fa-ms\"></i>"
     url = "/labs"
-    weight = -6
+    weight = -5
 
   [[menu.main]]
     name = "Github"
     pre = "<i class=\"fab fa-github fa-ms\"></i>"
     url = "https://github.com/zetc0de"
-    weight = -5
+    weight = -4
   [[menu.main]]
     name = "RSS"
     pre = "<i class=\"fas fa-rss fa-ms\"></i>"
     url = "/index.xml"
-    weight = -4 
+    weight = -3
 #  [[menu.main]]
 #    name = "contact"
 #    pre = "<i class=\"far fa-envelope\"></i>"
 #    url = "/contact"
-#    weight = -1 
+#    weight = -1 [protectedByPassword]
+

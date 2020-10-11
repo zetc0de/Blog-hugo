@@ -3,6 +3,7 @@ layout: post
 title: "How To Install And Configure OpenVPN In Centos 7"
 date: 2018-04-15
 tags: [ "OpenVPN","Centos 7" ]
+categories: [ "Linux Administrator" ]
 ---
 
 ![OpenVPN Logo](/images/centos7/openvpn/logo.png)

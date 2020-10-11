@@ -1,8 +1,9 @@
 ---
-title: "[Bug Bounty] Multiple Reflected XSS in DOKU Staging"
+title: "Multiple Reflected XSS in DOKU Staging"
 date: 2019-06-10T12:34:48+07:00
 draft: false
-tags: [ "Bug Bounty", "XSS"]
+tags: ["XSS"]
+categories: [ "Bug Bounty" ]
 ---
 
 ## About DOKU

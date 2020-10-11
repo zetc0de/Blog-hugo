@@ -3,6 +3,7 @@ layout: post
 title: "Bash Provisioning With Vagrant" 
 date: 2018-06-24
 tags: [ "Vagrant","Bash","Provisioning" ]
+categories: [ "DevOps" ]
 ---
 ![](/images/vagrant/vagrant03/bash.png)
 ## Introduction

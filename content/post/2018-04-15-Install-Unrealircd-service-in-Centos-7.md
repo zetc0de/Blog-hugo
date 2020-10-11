@@ -3,6 +3,7 @@ layout: post
 title: "How To Install Unrealircd In Centos 7"
 date: 2018-04-15
 tags: [ "IRC","Unrealircd","Centos 7" ]
+categories: [ "Linux Administrator" ]
 ---
 
 ![IRC](/images/centos7/irc/unrealircd/logo.jpg)

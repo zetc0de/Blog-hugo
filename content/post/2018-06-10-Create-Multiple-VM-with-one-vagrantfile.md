@@ -3,6 +3,7 @@ layout: post
 title: "Create Multiple VM with one Vagrantfile" 
 date: 2018-06-10
 tags: [ "Vagrant" ]
+categories: [ "DevOps" ]
 ---
 ![](/images/vagrant/vagrant02/Vagrant.png)
 ## Introduction

@@ -3,6 +3,7 @@ layout: post
 title: "How To Create AWS Docker Engine With Docker Machine"
 date: 2018-10-03
 tags: [ "Docker", "AWS"]
+categories: [ "DevOps" ]
 ---
 ![](/images/docker/docker02/machine.png)
 

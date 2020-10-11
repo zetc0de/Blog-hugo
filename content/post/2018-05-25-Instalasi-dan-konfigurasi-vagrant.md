@@ -3,6 +3,7 @@ layout: post
 title: "Instalasi dan Konfigurasi Dasar Vagrant" 
 date: 2018-05-25 
 tags: [ "Vagrant" ]
+categories: [ "DevOps" ]
 ---
 
 

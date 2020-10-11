@@ -3,6 +3,7 @@ layout: post
 title: "How To Create Own Vagrant Box" 
 date: 2018-07-30
 tags: [ "Vagrant" ]
+categories: [ "DevOps" ]
 ---
 ![](/images/vagrant/vagrant05/vagrantbox.webp)
 
